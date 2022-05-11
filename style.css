@@ -1,4 +1,4 @@
-pizza1{
+.pizza1{
     height: 403px;
    width: 292px;
    left: -340px;
@@ -121,11 +121,12 @@ pizza1{
        body{
    background-color: red;
     }
-}
+
    .Pizzas{
    display: flex;
    justify-content: space-between;
    }
+}
    
    @media(min-width:967px) {
      body {
