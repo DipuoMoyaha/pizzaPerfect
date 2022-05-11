@@ -117,16 +117,16 @@ pizza1{
    height: 130px;
    }
    
-   @media (min-width:693px){
-         body{ 
+   @media (min-width:693px){ 
+       body{
    background-color: red;
-   
-         }
+    }
+}
    .Pizzas{
    display: flex;
    justify-content: space-between;
    }
-   }
+   
    @media(min-width:967px) {
      body {
    background-color: #3FA9E2;
