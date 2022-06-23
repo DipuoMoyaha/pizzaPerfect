@@ -1,14 +1,10 @@
 .pizza1{
 height: 403px;
 width: 292px;
-/*
-left: -340px;
-top: -210px;
-*/
 border-radius: 0px;
 order: 1em;
  margin: 1em;
-background-color: #E2AE3D;
+background-color: lightcyan;
 padding: 1em; 
 
    
@@ -16,24 +12,20 @@ padding: 1em;
    .pizza2{
    height: 403px;
    width: 299px;
-   left: -36px;
-   top: -210px;
    border-radius: 0px;
     border: 1em;
     margin: 1em;
-   background-color: #E06733;
+   background-color: lightcyan;
     padding: 1em;  
    
    }
    .pizza3{
    height: 403px;
    width: 292px;
-   left: 273px;
-   top: -210px;
    border-radius: 0px;
    border: 1em;
    margin: 1em;
-   background-color: #E03571;
+   background-color: lightcyan;
    padding: 1em; 
    
    }
@@ -45,7 +37,7 @@ padding: 1em;
    font-weight: 700;
    line-height: 28px;
    letter-spacing: 0em;
-   background-color: burlywood;
+   background-color: beige;
    }
    
    h2{
@@ -68,16 +60,16 @@ padding: 1em;
    
    }
    img{
-   height: 50px;
-   width: 50px;
- float: left;
+   height: 100px;
+   width: 100px;
+ float: right;
    border-radius: 0px;
    }
    
    .down{
    height: 121px;
    border-radius: 0px;
-   background-color: #CDD93F;
+   background-color: beige;
    justify-content: space-between;
    display: flex;
    padding: 1em;
@@ -103,7 +95,7 @@ padding: 1em;
    
    }  
    
-   
+   /*
    .MediumPizza{
        width: 150px;
      height: 130px;
@@ -116,11 +108,11 @@ padding: 1em;
     width: 150px;
    height: 130px;
    }
-   
+   */
    @media (min-width:600px){ 
        body{
-   background-color: #3FA9E2;
-    
+   background-color: silver;
+   
     }
 
    .Pizzas{
